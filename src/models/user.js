@@ -31,7 +31,14 @@ const userSchema = new mongoose.Schema(
             type: String,
             enum: ['Admin', 'User'],
             default: 'User'
-        }
+        },
+
+        sales: [
+            {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: 'sale'
+            }
+        ]
     },
     { timestamps: true}
 )

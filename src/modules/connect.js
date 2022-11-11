@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
- const URI = "mongodb+srv://fatima:binta@cluster0.gvuqdrk.mongodb.net/FATIMA-RESTAURANT"
+ const URI = "mongodb://localhost:27017"
 const connect = () => {
     return mongoose.connect(URI, {
         useNewUrlParser: true,
