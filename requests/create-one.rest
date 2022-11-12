@@ -17,8 +17,8 @@ content-type: application/json
 {
   "description": "benachin",
   "qty": 2,
-  "price": 400,
-  "Total": 800,
-  "userId": "636e6bf45d2424693883901c"
+  "price": 200,
+  "total": 400,
+  "userId": "636f744db1eacc13bff0ff84"
   
 }

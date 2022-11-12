@@ -4,22 +4,22 @@ const saleSchema = new mongoose.Schema(
     {
      description: {
         type: String,
-         required:true
+         required:true,
         },
     
     qty: {
-     type: String,
-     required:true
+     type: Number,
+     required:true,
     },
 
     price: {
-    type: String,
-    required:true
+    type: Number,
+    required:true,
      },
 
     total: {
-     type: String,
-     required:false
+     type: Number,
+     required:true,
     },
 
     user: {
@@ -44,4 +44,4 @@ saleSchema.set('toJSON', {
 
 const Sale = mongoose.model('sale', saleSchema);
 
-module.exports = Sale;
+module.exports = Sale
