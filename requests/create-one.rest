@@ -2,11 +2,11 @@ POST http://localhost:3001/api/user HTTP/1.1
 content-type: application/json 
 
 {
-  "email": "fatoumattatrawalleh64@gmail.com",
+  "email": "oumon1@gmail.com",
   "password": "secret",
-  "firstname": "fatimabobo",
+  "firstname": "oumon",
   "minit": "B",
-  "lastname": "Trawalleh"
+  "lastname": "bah"
 }
 
 
