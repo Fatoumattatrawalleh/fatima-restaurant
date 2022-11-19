@@ -1,1 +1,9 @@
-DELETE http://localhost:3001/api/user/634aa72c921d755d7c6d94e0
+DELETE http://localhost:3001/api/sale/6378d41badc09f5b2ed57872
+
+###sale
+DELETE http://localhost:3001/api/sale/6378d41badc09f5b2ed57872
+content-type: application/json
+
+{
+"userId": "636b76ea9daaabbcecf21442"
+}

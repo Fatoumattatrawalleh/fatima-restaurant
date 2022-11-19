@@ -10,7 +10,7 @@ router.post('/user', createUser);
 router.get('/user', getAllUsers);
 router.get('/user/:id', getOneUser);
 router.put('/user/:id', updateOneSale);
-router.delete('/user/:id' , deleteOne)
+router.delete('/user/:id' , deleteOneSale);
 
 
 
