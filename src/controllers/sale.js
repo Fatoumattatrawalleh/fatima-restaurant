@@ -71,7 +71,7 @@ const deleteOneSale = async (req, res) => {
     const id = req.params.id
     const userId = req.body.userId;
     try {
-    const sale = await Sale.findOneAndRemove({ });
+    const sale = await Sale.findOneAndRemove({ _id: id, user: userId});
 
     if (!sale) {
         return res.status(400).json({ message: 'sale not found' });
