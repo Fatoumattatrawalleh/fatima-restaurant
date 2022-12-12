@@ -2,11 +2,11 @@ POST http://localhost:3001/api/user HTTP/1.1
 content-type: application/json 
 
 {
-  "email": "oumon1@gmail.com",
+  "email": "fatimabobo@gmail.com",
   "password": "secret",
-  "firstname": "oumon",
+  "firstname": "fatima",
   "minit": "B",
-  "lastname": "bah"
+  "lastname": "Trawalleh"
 }
 
 
@@ -15,10 +15,10 @@ POST http://localhost:3001/api/sale HTTP/1.1
 content-type: application/json 
 
 {
-  "description": "mbahal",
-  "qty": 4,
-  "price": 100,
-  "total": 400,
+  "description": "beans",
+  "qty": 5,
+  "price": 70,
+  "total": 350,
   "userId": "636f744db1eacc13bff0ff84"
   
 }

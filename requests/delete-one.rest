@@ -1,11 +1,11 @@
-DELETE http://localhost:3001/api/sale/6377db1c9d437c0167c26a0d
+DELETE http://localhost:3001/api/sale/639721527606c77ebe2ad4d8
 
 ### sale
-DELETE http://localhost:3001/api/sale/6377db1c9d437c0167c26a0d
+DELETE http://localhost:3001/api/sale/639721527606c77ebe2ad4d8
 content-type: application/json
 
 {
 
-"userId": "636b76ea9daaabbcecf21442"
+"userId": "63870e83a648625a0597bdd4"
 
 }

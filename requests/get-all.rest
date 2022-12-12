@@ -1,4 +1,4 @@
-GET http://localhost:3001/api/sale
+GET http://localhost:3001/api/user
 
 ### Sale
 GET http://localhost:3001/api/sale HTTP/1.1
